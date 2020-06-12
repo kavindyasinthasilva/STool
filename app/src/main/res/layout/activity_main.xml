@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#4682b4"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/s"
+        android:layout_width="363dp"
+        android:layout_height="415dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="19dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/k1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/log"
+
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginBottom="14dp"
+        android:text="Power By SkySoFtlk"
+        android:textColor="#000000"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/b1"
+
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/bbutton"
+        android:gravity="center"
+        android:letterSpacing="0.2"
+        android:paddingLeft="22dp"
+        android:text="Get Start"
+        android:textAlignment="center"
+        android:textColor="#Fff"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="506dp" />
+
+
+</RelativeLayout>
